@@ -1,0 +1,100 @@
+   26  mkdir real
+   27  mkdir fictional
+   28  mkdir inhabited
+   29  cd real
+   30  mkdir terrestrial
+   31  mkdir gas-giants
+   32  mkdir dwarf-planets
+   33  cd planets
+   34  cd quests/planets
+   35  cd C:\Users\marie\quests\planets
+   36  C:\Users\marie\quests\planets
+   37  cd quests
+   38  pwd
+   39  move earth real/
+   40  mv earth real/
+   41  cd ..
+   42  mv earth real/
+   43  mv ca* parsnip earth real/
+   44  mv C:\Users\marie\quests\planets\earth C:\Users\marie\quests\planets\real\
+   45  mv C:\Users\marie\quests\planets\earth C:\Users\marie\quests\planets\realearth
+   46  mv C:\Users\marie\quests\planets C:\Users\marie\quests\planets\real
+   47   mv C:\Users\marie\quests\planets\earth C:\Users\marie\quests\planets\real
+   48  mv earth.jpeg real
+   49  mv jupiter.jpeg real
+   50  mv mars.jpeg real
+   51  mv mercury.jpeg real
+   52  mv neptune.jpeg real
+   53  mv pluto.jpeg real
+   54  mv saturn.jpeg real
+   55  mv uranus.jpeg venus.jpeg real
+   56  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional
+   57  cd real
+   58  mv earth.jpeg mars.jpeg jupiter.jpeg venus.jpeg inhabited
+   59  mv earth.jpeg mars.jpeg jupiter.jpeg venus.jpeg C:\Users\marie\quests\planets\inhabited
+   60  mv earth.jpeg planets\
+   61  mv earth.jpeg inhabited
+   62  mv earth.jpeg real
+   63  mv earth.jpeg planets
+   64  mv earth.jpeg planets\inhabited
+   65  cd ..
+   66  mv \real\earth.jpeg inhabited
+   67  mv earth.jpeg inhabited
+   68  cd real
+   69  mv earth.jpeg C:\Users\marie\quests\planets\inhabited
+   70  rm pluto
+   71  rm pluto.jpeg
+   72  mv C:\Users\marie\quests\planets\real\earth.jpeg C:\Users\marie\quests\planets\inhabited
+   73  mv C:\Users\marie\quests\planets\real\earth C:\Users\marie\quests\planets\inhabited
+   74  mv C:\Users/marie/quests/planets/real
+   75  mv C:\Users/marie/quests/planets/real/earth.jpeg C:\Users/marie/quests/planets/inhabited
+   76  mv earth inhabited
+   77  mv earth.jpeg
+   78  mv --help
+   79  mv earth.jpeg inhabited
+   80  cd ..
+   81  cd inhabited
+   82  mv earth.jpeg inhabited
+   83  mv C:\Users\marie\quests\planets\real\earth.jpeg inhabited
+   84  cd ..
+   85  mv \real\earth.jpeg inhabited
+   86  mv real\earth.jpeg inhabited
+   87  cd real
+   88  mv earth.jpeg ../inhabited
+   89  cd ..
+   90  mv real/earth.jpeg inhabited
+   91  cd real
+   92  mv jupiter.jpeg mars.jpeg saturn.jpeg ../inhabited
+   93  rm quests
+   94  cd ..
+   95  cd ..
+   96  rm planets
+   97  rmdir planets
+   98  cd ..
+   99  rmdir quests
+  100  exit
+  101  curl -o Unix_commands.md https://gist.githubusercontent.com/phaneendra/3804036/raw/f124b9f7703114d6be22f55e775cd2d015a45a91/UnixCommands.md
+  102  cat Unix_commands.md
+  103  ls ~ > home-contents.txt
+  104  ls
+  105  rm home-contents.txt
+  106  cat /foo > /tmp/foo.txt
+  107  cat /foo 2> /tmp/foo-err.txt
+  108  wc languages.txt
+  109  cat > languages.txt
+  110  wc languages.txt
+  111  sort languages.txt
+  112  clear
+  113  curl -o Unix_commands.md https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  114  ls
+  115  cat wilders.csv
+  116  cd downloads
+  117  touch php_france_2019.csv
+  118  wc wilders.csv
+  119  grep -E 'France.2019.PHP' wilders.csv > php_france_2019.csv
+  120  grep -E 'France.2019.PHP' wilders.csv > php_france_2019.csv
+  121  grep -E 'France.2019.PHP' wilders.csv > php_france_2019.csv
+  122  grep -E 'Toulouse.Biarritz.JavaScript' wilders.csv > javascript_biarritz_toulouse.csv
+  123  grep "JavaScript" wilders.csv | grep -E "Toulouse|Biarritz" > javascript_biarritz_toulouse.csv
+  124  history | tail -n 20 > history.txt
+  125  history | tail -n 100 > history.txt
